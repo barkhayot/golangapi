@@ -10,7 +10,7 @@ import (
 	"goapi/routes"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jackc/pgx/v4"
+	//"github.com/jackc/pgx/v4"
 	"golang.org/x/net/context"
 )
 
