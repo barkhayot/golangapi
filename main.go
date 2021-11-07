@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"log"
 	
 
 	"strings"
@@ -53,7 +54,7 @@ func main() {
 
 	port := ":" + os.Getenv("PORT")
 
-	http.ListenAndServe(":"+port, nil)
+	log.Fatal(http.ListenAndServe(":"+port, nil))
 	//router.Run(":3000")
 }
 
