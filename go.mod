@@ -1,6 +1,7 @@
 module goapi/testing
 
-go 1.17.3
+// +heroku goVersion go1.16
+go 1.17
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
