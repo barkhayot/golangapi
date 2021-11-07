@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"strings"
 	"time"
+	"database/sql"
+    _ "github.com/lib/pq"
 
 	"github.com/gofrs/uuid"
 	//"github.com/jackc/pgx/v4"
