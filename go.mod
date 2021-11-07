@@ -8,7 +8,7 @@ require (
 	github.com/gofrs/uuid v4.0.0+incompatible
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 	golang.org/x/net v0.0.0-20211105192438-b53810dc28af
-
+	github.com/jackc/pgx/v4 v4.13.0
 )
 
 require (
