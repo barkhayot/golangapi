@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"os"
+	"log"
 
 	"strings"
 
@@ -49,7 +51,9 @@ func main() {
 		itemsGroup.PUT("update", authMiddleWare(), routes.ItemsUpdate)
 	}
 
-	router.Run(":3000")
+	port := ":" + os.Getenv("PORT")
+    	log.Fatal(http.ListenAndServe(port, router))
+	//router.Run(":3000")
 }
 
 func connectDB() (c *pgx.Conn, err error) {
