@@ -52,7 +52,7 @@ func main() {
 		itemsGroup.PUT("update", authMiddleWare(), routes.ItemsUpdate)
 	}
 
-	port := ":" + os.Getenv("PORT")
+	port := os.Getenv("PORT")
 
 	log.Fatal(http.ListenAndServe(":"+port, nil))
 	//router.Run(":3000")
