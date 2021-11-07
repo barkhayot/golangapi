@@ -9,7 +9,7 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gofrs/uuid"
-	//"github.com/jackc/pgx/v4"
+	"github.com/jackc/pgx/v4"
 	"golang.org/x/crypto/bcrypt"
 )
 
