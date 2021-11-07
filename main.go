@@ -8,8 +8,7 @@ import (
 
 	"goapi/models"
 	"goapi/routes"
-	"database/sql"
-    _ "github.com/lib/pq"
+	
 
 	"github.com/gin-gonic/gin"
 	"github.com/jackc/pgx/v4"
