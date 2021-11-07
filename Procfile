@@ -1,1 +1,1 @@
-web: GolangAPI
+web: GoLangAPI
