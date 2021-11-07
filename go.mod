@@ -1,6 +1,6 @@
-module goapi
+module goapi/testing
 
-go 1.17
+go 1.17.3
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
@@ -9,7 +9,6 @@ require (
 	github.com/jackc/pgx/v4 v4.13.0
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 	golang.org/x/net v0.0.0-20211105192438-b53810dc28af
-
 )
 
 require (

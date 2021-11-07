@@ -3,7 +3,7 @@ package routes
 import (
 	"fmt"
 	"net/http"
-	"goapi/models"
+	"goapi/testing/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jackc/pgx/v4"

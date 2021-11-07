@@ -6,8 +6,8 @@ import (
 
 	"strings"
 
-	"goapi/models"
-	"goapi/routes"
+	"goapi/testing/models"
+	"goapi/testing/routes"
 	
 
 	"github.com/gin-gonic/gin"
