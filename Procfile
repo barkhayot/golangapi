@@ -1,1 +1,1 @@
-web: GoAPI
+web: GoAPI/main
