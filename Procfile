@@ -1,1 +1,1 @@
-web: GoLangAPI
+web: bin/GoLangAPI
