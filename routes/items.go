@@ -6,7 +6,7 @@ import (
 	"goapi/models"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jackc/pgx/v4"
+	//"github.com/jackc/pgx/v4"
 )
 
 func ItemsIndex(c *gin.Context) {
