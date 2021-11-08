@@ -1,1 +1,1 @@
-web: GoLangAPI -port $PORT
+web: -port $PORT
