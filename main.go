@@ -29,7 +29,7 @@ func main() {
 		return
 	}
 
-	router := gin.Default()
+	router := gin.New()
 
 	router.Use(dbMiddleware(*conn))
 
