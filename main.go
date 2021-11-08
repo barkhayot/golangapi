@@ -33,7 +33,7 @@ func main() {
 
 	router.Use(dbMiddleware(*conn))
 
-	router.GET("/", func(c *gin.Context){
+	router.GET("home", func(c *gin.Context){
 		c.JSON(200, gin.H{"message": "Hello. Welcome to test golang API",
 							"please" : "Please Use The Postman to test this API"})
 	})
