@@ -1,1 +1,1 @@
-web: -port $PORT
+web: GoAPI -port $PORT
