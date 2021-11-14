@@ -59,7 +59,7 @@ func main() {
 }
 
 func connectDB() (c *pgx.Conn, err error) {
-	conn, err := pgx.Connect(context.Background(), "postgres://dkvzhxmbngjhvg:e2225ac367e18748d72789ff2659860fc591d74710dec1d3d7bd5238b5bee777@ec2-3-222-11-129.compute-1.amazonaws.com:5432/d45ir1cjtemd8s")
+	conn, err := pgx.Connect(context.Background(), "Database://databaseuser:databasehost@password:5432(port)/databasename")
 	if err != nil || conn == nil {
 		fmt.Println("Error connecting to DB")
 		fmt.Println(err.Error())
